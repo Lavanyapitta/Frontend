@@ -1,0 +1,26 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar brand image */
+.navbar-brand img {
+  border-radius: 50%;
+}
+
+/* Center and resize carousel */
+.carousel-wrapper {
+  width: 70%;               /* Reduce width to 70% of page */
+  margin: 40px auto;        /* Center horizontally with some top margin */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust image size without zooming */
+.carousel-image {
+  width: 100%;              /* Fit the container */
+  height: 350px;            /* Reasonable height */
+  object-fit: cover;        /* Fill while keeping aspect ratio */
+  border-radius: 10px;
+}
